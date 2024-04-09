@@ -1,0 +1,2 @@
+cn.org.byc.translator.config.TranslatorAspectAutoConfigWithRedisCache
+cn.org.byc.translator.config.TranslatorAspectAutoConfigWithCaffeineCache
