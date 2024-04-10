@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 @Configuration
 @ConditionalOnClass(name = "org.springframework.data.redis.core.RedisTemplate")
-@ConditionalOnProperty(prefix = "cn.org.byc.translator", name = {"use-redis"})
+@ConditionalOnProperty(prefix = "cn.org.byc.translator", name = {"use-redis","useRedis"})
 @EnableConfigurationProperties(TranslatorAspectProperties.class)
 public class RedisCacheSupportConfig {
 
